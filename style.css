@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.profile-inform img {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+.profile-inform .name {
+  color: rgb(102, 96, 96);
+  margin: 10px;
+}
+.profile-inform {
+  width: 100%;
+  text-align: center;
+}
+.profile-inform .reach {
+  display: flex;
+  color: rgb(102, 96, 96);
+  margin-bottom: 40px;
+}
+.post,
+.follower,
+.following {
+  background-color: rgba(128, 128, 128, 0.3);
+  padding: 10px;
+  width: 100px;
+  height: 80px;
+  border-radius: 6px;
+  margin-left: 17px;
+}
+.profile-inform p {
+  color: gray;
+}
+/*gallery*/
+
+.gallery {
+  display: grid;
+  grid-template-areas:
+    "one two two"
+    "three three four"
+    "six five four";
+  grid-template-rows: auto;
+  grid-gap: 14px;
+
+  padding: 17px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 6px;
+  height: 100%;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+footer p {
+  color: gray;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 380px) {
+  .reach {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 430px) and (max-width: 750px) {
+  .reach {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 752px) and (max-width: 768px) {
+  .reach {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 770px) {
+  .reach {
+    margin-left: 30%;
+  }
+}
+@media (min-width: 1030px) {
+  .reach {
+    margin-left: 36%;
+  }
+}
