@@ -82,22 +82,28 @@ footer p {
     margin-left: 20px;
   }
 }
-@media (min-width: 430px) and (max-width: 750px) {
+@media (min-width: 430px) and (max-width: 740px) {
   .reach {
-    margin-left: 10%;
+    margin-left: 15%;
   }
 }
+
 @media (min-width: 752px) and (max-width: 768px) {
   .reach {
-    margin-left: 25%;
+    margin-left: 20%;
   }
 }
 @media (min-width: 770px) {
   .reach {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 1020px) {
+  .reach {
     margin-left: 30%;
   }
 }
-@media (min-width: 1030px) {
+@media (min-width: 1420px) {
   .reach {
     margin-left: 36%;
   }
